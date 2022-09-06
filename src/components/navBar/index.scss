@@ -1,0 +1,56 @@
+@use "../../sass/index" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  .logo {
+    width: 25%;
+    a {
+      @include flexcenter;
+    }
+  }
+  .navLinks {
+    width: 50%;
+    @include flexcenter;
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      li {
+        cursor: pointer;
+        line-height: normal;
+        a {
+          color: $grayish-blue;
+          padding: 1rem;
+          text-transform: capitalize;
+          &:hover {
+            border-bottom: 4px solid rgb(127, 217, 162);
+            transform: none;
+          }
+        }
+      }
+    }
+  }
+  .navButton {
+    width: 25%;
+    @include flexcenter;
+    a {
+      button {
+        border-radius: 2rem;
+        padding: 0.7rem 1.5rem;
+        color: $white;
+        text-transform: capitalize;
+        cursor: pointer;
+        background: rgb(127, 217, 162);
+        background: linear-gradient(
+          90deg,
+          rgba(127, 217, 162, 1) 27%,
+          rgba(126, 221, 199, 1) 53%,
+          rgba(129, 213, 223, 1) 100%
+        );
+      }
+    }
+  }
+}

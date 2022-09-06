@@ -16,3 +16,9 @@ $font-size: 18px;
 //---------------------Font----------------------------------//
 $font-family :  'Public Sans', sans-serif;
 
+//----------------------mixins-----------------------//
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
