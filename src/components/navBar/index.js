@@ -25,13 +25,13 @@ const NavBar = () => {
             <a href="#home">blog</a>
           </li>
           <li>
-            <a href="#home">carrers</a>
+            <a href="#home">careers</a>
           </li>
         </ul>
       </div>
       <div className="navButton">
         <a href="#button">
-          <button>request invite</button>
+          <button className="btn_request">request invite</button>
         </a>
       </div>
     </div>

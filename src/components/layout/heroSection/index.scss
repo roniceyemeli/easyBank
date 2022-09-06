@@ -1,0 +1,26 @@
+@use '../../../sass/' as *;
+
+.hero_main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    .hero_left{
+        .left_main{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+        }
+        border : 1px solid blue;
+        h1{
+            color: $dark-blue;
+            font-size: calc($font-size + 1rem);
+        }
+        p{
+            color: $grayish-blue;
+        }
+    }
+    .hero_right{
+    
+    }
+}

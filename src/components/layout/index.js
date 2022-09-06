@@ -1,9 +1,11 @@
 import React from 'react'
+import HeroSection from './heroSection';
+import './index.scss'
 
 const Layout = () => {
   return (
-    <div>
-        <h1>Layout</h1>
+    <div id='layout'>
+        <HeroSection/>
     </div>
   )
 }

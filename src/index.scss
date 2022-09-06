@@ -8,6 +8,22 @@
   font-family: $font-family;
   font-size: $font-size;
 }
-a{
+a {
   text-decoration: none;
+}
+.btn_request {
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  color: $white;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(127, 217, 162, 1) 27%,
+    rgba(126, 221, 199, 1) 64%,
+    rgba(44, 185, 203, 1) 100%
+  );
+}
+body {
+  position: relative;
 }

@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
+  z-index: 5000;
   .logo {
     width: 25%;
     a {
@@ -26,6 +27,7 @@
           padding: 1rem;
           text-transform: capitalize;
           &:hover {
+            color: $dark-blue;
             border-bottom: 4px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(
@@ -42,20 +44,5 @@
   .navButton {
     width: 25%;
     @include flexcenter;
-    a {
-      button {
-        border-radius: 2rem;
-        padding: 0.7rem 1.5rem;
-        color: $white;
-        text-transform: capitalize;
-        cursor: pointer;
-        background: linear-gradient(
-          90deg,
-          rgba(127, 217, 162, 1) 27%,
-          rgba(126, 221, 199, 1) 53%,
-          rgba(129, 213, 223, 1) 100%
-        );
-      }
-    }
   }
 }
