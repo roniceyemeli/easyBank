@@ -22,3 +22,13 @@ $font-family :  'Public Sans', sans-serif;
     justify-content: center;
     align-items: center;
 }
+
+//---------------------------------------- buttons ------------------------------//
+.btn_request {
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    color: $white;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: linear-gradient(45deg,#31d35c,#2bb7da);
+  }

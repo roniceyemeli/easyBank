@@ -5,7 +5,11 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
-  z-index: 5000;
+  z-index: 5000000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: $white;
   .logo {
     width: 25%;
     a {
