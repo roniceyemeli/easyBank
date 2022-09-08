@@ -1,23 +1,51 @@
 @use "../../../sass/" as *;
 
-#services{
-    background-color: $light-grayish-blue;
+#services {
+  background-color: $light-grayish-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8rem;
+  margin-bottom: 4rem;
+
+  .services-head {
+    // padding-top: 1rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    .services-head{
-        // padding-top: 1rem;
-        padding-left: 8rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-        h2{
-            font-weight: 500;
-            color: $dark-blue;
-            font-size: calc($font-size + 20px);
-        }
-        p{
-            color: $grayish-blue;
-        }
+    gap: 1.5rem;
+    h2 {
+      font-weight: 500;
+      color: $dark-blue;
+      font-size: calc($font-size + 20px);
     }
+    p {
+      color: $grayish-blue;
+    }
+  }
+  .services-boxes {
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    .services-boxe {
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+     img{
+        width: 72px;
+        height: 72px;
+     }
+      h3 {
+          color: $dark-blue;
+          font-weight: 500;
+          font-size: calc($font-size + 5px);
+      }
+      p {
+        color: $grayish-blue;
+      }
+    }
+  }
 }
