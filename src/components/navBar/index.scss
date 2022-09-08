@@ -2,7 +2,7 @@
 
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   z-index: 50000;
@@ -16,6 +16,7 @@
     width: 25%;
     a {
       @include flexcenter;
+      margin-right: 4rem;
     }
   }
   .navLinks {
