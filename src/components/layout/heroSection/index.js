@@ -3,7 +3,7 @@ import "./index.scss";
 
 const HeroSection = () => {
   return (
-    <div>
+    <div id="home">
       <div className="hero_main">
         <div className="hero_left">
           <div className="left_main">
