@@ -30,14 +30,13 @@ const ArticleSection = () => {
               alt="restaurant_image"
             />
             <div className="article_box_bottom">
-              <p>By Claire Robinson</p>
-              <p>
-                Receive money in any <br /> currency with no fees
+              <p>By Wilson Hutton</p>
+              <p>Treat yourself without 
+                <br /> worrying about money
               </p>
               <p>
-                The world is getting smaller and <br /> we're becomming more
-                mobile. So <br /> why should you be forced to only <br />{" "}
-                receive money in a single ...
+              Our simple budgeting feature <br /> allows you to separate at your <br /> spending and set realistic limits <br />
+                each month.That means you ...
               </p>
             </div>
           </div>
@@ -47,14 +46,13 @@ const ArticleSection = () => {
               alt="aircraft_wing_image"
             />
             <div className="article_box_bottom">
-              <p>By Claire Robinson</p>
+              <p>By Wilson Hutton</p>
               <p>
-                Receive money in any <br /> currency with no fees
+                Take your Easybank card<br /> wherever you go
               </p>
               <p>
-                The world is getting smaller and <br /> we're becomming more
-                mobile. So <br /> why should you be forced to only <br />{" "}
-                receive money in a single ...
+                We want you to enjoy ypur travels.<br /> This is why we don't charge any<br />fees on purchases while you're<br />
+                abroad. We'll even show you...
               </p>
             </div>
           </div>
@@ -66,12 +64,11 @@ const ArticleSection = () => {
             <div className="article_box_bottom">
               <p>By Claire Robinson</p>
               <p>
-                Receive money in any <br /> currency with no fees
+                Our invite-only Beta<br /> accounts are now live!
               </p>
               <p>
-                The world is getting smaller and <br /> we're becomming more
-                mobile. So <br /> why should you be forced to only <br />{" "}
-                receive money in a single ...
+                After a lot of hard work by the<br />whole team, we're excited to launch<br /> our closed beta. It's easy to request<br />
+                an invite through the site ...
               </p>
             </div>
           </div>
