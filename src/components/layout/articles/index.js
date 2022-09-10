@@ -7,12 +7,12 @@ const ArticleSection = () => {
       <div className="main_article">
         <h2>Latest Articles</h2>
         <div className="articles_boxes">
-          <div className="article_article">
+          <div className="article_box">
             <img
               src="https://res.cloudinary.com/ron2021/image/upload/v1662480599/easyBank/image-currency_lyn5rz.jpg"
               alt="article_money"
             />
-            <div className="article_article_bottom">
+            <div className="article_box_bottom">
               <p>By Claire Robinson</p>
               <p>
                 Receive money in any <br /> currency with no fees
