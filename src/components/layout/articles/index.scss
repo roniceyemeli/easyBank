@@ -1,0 +1,12 @@
+@use "../../../sass/" as *;
+
+#articles{
+    .main_article{
+        padding-left: 8rem;
+        h2{
+            font-weight: 500;
+            color: $dark-blue;
+            font-size: calc($font-size + 20px);
+        }
+    }
+}
