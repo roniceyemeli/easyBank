@@ -24,6 +24,57 @@ const ArticleSection = () => {
               </p>
             </div>
           </div>
+          <div className="article_box">
+            <img
+              src="https://res.cloudinary.com/ron2021/image/upload/v1662480592/easyBank/image-restaurant_dij24u.jpg"
+              alt="restaurant_image"
+            />
+            <div className="article_box_bottom">
+              <p>By Claire Robinson</p>
+              <p>
+                Receive money in any <br /> currency with no fees
+              </p>
+              <p>
+                The world is getting smaller and <br /> we're becomming more
+                mobile. So <br /> why should you be forced to only <br />{" "}
+                receive money in a single ...
+              </p>
+            </div>
+          </div>
+          <div className="article_box">
+            <img
+              src="https://res.cloudinary.com/ron2021/image/upload/v1662480603/easyBank/image-plane_ui5ymu.jpg"
+              alt="aircraft_wing_image"
+            />
+            <div className="article_box_bottom">
+              <p>By Claire Robinson</p>
+              <p>
+                Receive money in any <br /> currency with no fees
+              </p>
+              <p>
+                The world is getting smaller and <br /> we're becomming more
+                mobile. So <br /> why should you be forced to only <br />{" "}
+                receive money in a single ...
+              </p>
+            </div>
+          </div>
+          <div className="article_box">
+            <img
+              src="https://res.cloudinary.com/ron2021/image/upload/v1662480589/easyBank/image-confetti_utpr3c.jpg"
+              alt="light_image"
+            />
+            <div className="article_box_bottom">
+              <p>By Claire Robinson</p>
+              <p>
+                Receive money in any <br /> currency with no fees
+              </p>
+              <p>
+                The world is getting smaller and <br /> we're becomming more
+                mobile. So <br /> why should you be forced to only <br />{" "}
+                receive money in a single ...
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

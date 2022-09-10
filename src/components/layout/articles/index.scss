@@ -11,10 +11,13 @@
         }
         .articles_boxes{
             margin-top: 5rem;
+            display: flex;
+            gap: 3%;
             .article_box{
                 width: 19%;
                 img{
                     width: 15rem;
+                    height: 10rem;
                 }
                 .article_box_bottom{
                     margin-left: 1rem;
@@ -29,6 +32,10 @@
                     p:nth-child(2){
                         color: $dark-blue;
                         font-size: calc($font-size + .2rem);
+                        cursor: pointer;
+                        &:hover{
+                            color: $lime-green;
+                        }
                     }
                     p:last-child{
                         color: $grayish-blue;
