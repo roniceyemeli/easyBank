@@ -1,0 +1,15 @@
+@use "../../sass/index" as *;
+
+#footer{
+    background-color: $dark-blue;
+
+    .main_footer{
+        .footer_block{
+            a{
+                img{
+                    color: white;
+                }
+            }
+        }
+    }
+}
