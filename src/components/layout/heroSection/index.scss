@@ -2,6 +2,7 @@
 
 #home{
   height: 86vh;
+  overflow: visible;
   .hero_main {
     display: grid;
     grid-template-columns: 50% 50%;

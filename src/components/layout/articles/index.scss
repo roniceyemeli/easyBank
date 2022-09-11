@@ -3,6 +3,7 @@
 #articles{
     margin-bottom: 4rem;
     .main_article{
+        width: 100%;
         padding-left: 8rem;
         h2{
             font-weight: 500;
@@ -10,6 +11,7 @@
             font-size: calc($font-size + 20px);
         }
         .articles_boxes{
+            border: 1px solid red;
             margin-top: 5rem;
             display: flex;
             gap: 3%;
