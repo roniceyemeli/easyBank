@@ -6,8 +6,6 @@
   .main_footer {
     display: grid;
     grid-template-columns: 60% 40%;
-    // place-items: center;
-    border: 1px solid white;
     padding-block: 2rem;
     .footer_left {
       display: flex;
@@ -44,7 +42,14 @@
       }
     }
     .footer_right {
-      border: 1px solid white;
+        padding-right: 22%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    justify-content: space-between;
+      p{
+        color: $grayish-blue;
+      }
     }
   }
 }
