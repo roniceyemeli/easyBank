@@ -15,8 +15,10 @@
   .logo {
     width: 25%;
     a {
-      @include flexcenter;
-      margin-right: 1rem;
+      // @include flexcenter;
+      display: flex;
+      align-items: center;
+      padding-left: 7rem;
     }
   }
   .navLinks {
