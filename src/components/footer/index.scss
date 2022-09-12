@@ -1,15 +1,50 @@
 @use "../../sass/index" as *;
 
-#footer{
-    background-color: $dark-blue;
-
-    .main_footer{
-        .footer_block{
-            a{
-                img{
-                    color: white;
-                }
-            }
+#footer {
+  background-color: $dark-blue;
+  margin-top: 3rem;
+  .main_footer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    // place-items: center;
+    border: 1px solid white;
+    padding-block: 2rem;
+    .footer_left {
+      display: flex;
+      justify-content: space-around;
+      padding-left: 2rem;
+      .footer_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .social_media {
+          color: $white;
+          display: flex;
+          gap: 1rem;
         }
+        .social_media > *{
+          cursor: pointer;
+          &:hover{
+              color: $lime-green;
+          }
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        li {
+          a {
+            color: $white;
+            &:hover{
+                color: $lime-green;
+            }
+          }
+        }
+      }
     }
+    .footer_right {
+      border: 1px solid white;
+    }
+  }
 }
