@@ -6,11 +6,10 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 8rem;
-  margin-bottom: 4rem;
+  padding-block: 4rem;
 
   .services-head {
-    // padding-top: 1rem;
-    padding-top: 4rem;
+    padding-block: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -29,11 +28,12 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 3rem;
     .services-boxe {
      display: flex;
      flex-direction: column;
      gap: 1.5rem;
+     width: 17rem;
      img{
         width: 72px;
         height: 72px;
