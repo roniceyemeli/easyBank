@@ -23,10 +23,9 @@ const HeroSection = () => {
         <div className="hero_right">
           <div className="img">
             <img
-              src="https://res.cloudinary.com/ron2021/image/upload/v1662480592/easyBank/bg-intro-desktop_kmmult.svg"
+              src="https://res.cloudinary.com/ron2021/image/upload/v1663097221/easyBank/imageRight_uzqtyl.svg"
               alt="phones_backgound"
             />
-            <img src="https://res.cloudinary.com/ron2021/image/upload/v1662480592/easyBank/image-mockups_ynaj4f.png" alt="phones" />
           </div>
         </div>
       </div>
