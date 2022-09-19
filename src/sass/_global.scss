@@ -9,26 +9,36 @@ $light-grayish-blue: hsl(220, 16%, 96%);
 $very-light-gray: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 
-
 //-------------------------------- Typo ----------------------//
 $font-size: 18px;
 
 //---------------------Font----------------------------------//
-$font-family :  'Public Sans', sans-serif;
+$font-family: "Public Sans", sans-serif;
 
 //----------------------mixins-----------------------//
 @mixin flexcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 //---------------------------------------- buttons ------------------------------//
 .btn_request {
-    border-radius: 2rem;
-    padding: 0.7rem 1.5rem;
-    color: $white;
-    text-transform: capitalize;
-    cursor: pointer;
-    background: linear-gradient(45deg,#31d35c,#2bb7da);
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  color: $white;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: linear-gradient(45deg, #31d35c, #2bb7da);
+}
+
+//-------------------------- media queries -----------------------------------//
+$width2: 565px;
+$width1: 768px;
+$width: 970px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
   }
+} ;
