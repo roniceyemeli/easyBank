@@ -35,9 +35,10 @@ $font-family: "Public Sans", sans-serif;
 //-------------------------- media queries -----------------------------------//
 $width2: 565px;
 $width1: 768px;
-$width: 970px;
+$width0: 970px;
+$width: 1020px;
 
-@mixin mobile {
+@mixin tab {
   @media (max-width: #{$width}) {
     @content;
   }

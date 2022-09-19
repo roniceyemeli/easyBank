@@ -9,16 +9,15 @@
   position: sticky;
   top: 0;
   left: 0;
-  right: 0;
   width: 100vw;
   background-color: $white;
+
   .logo {
     width: 25%;
+    padding-left: 7%;
     a {
-      // @include flexcenter;
       display: flex;
       align-items: center;
-      padding-left: 7rem;
     }
   }
   .navLinks {
@@ -49,9 +48,22 @@
         }
       }
     }
+    @include tab{
+      display: none;
+    } 
   }
   .navButton {
     width: 25%;
     @include flexcenter;
+    @include tab{
+      display: none;
+    } 
+  }
+  .hamburger{
+    display: none;
+    @include tab{
+      @include flexcenter;
+      // padding-right: 8rem;
+    } 
   }
 }

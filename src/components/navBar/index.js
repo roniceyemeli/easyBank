@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.scss";
+import {IoIosMenu} from 'react-icons/io'
 
 const NavBar = () => {
   return (
@@ -33,6 +34,9 @@ const NavBar = () => {
         <a href="#button">
           <button className="btn_request">request invite</button>
         </a>
+      </div>
+      <div className="hamburger">
+        <IoIosMenu style={{fontSize:'2rem'}}/>
       </div>
     </div>
   );
