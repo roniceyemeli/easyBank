@@ -5,14 +5,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 8rem;
+  padding-left: clamp(4rem, 8%, 7rem);
   padding-block: 4rem;
+  @include tab2{
+    padding-left: 0;
+
+  }
 
   .services-head {
     padding-block: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    @include tab2{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+    }
     h2 {
       font-weight: 500;
       color: $dark-blue;
@@ -29,11 +38,21 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
+    @include tab2{
+      padding-bottom: 0;
+      justify-content: center;
+      width: 90%;
+      margin: auto;
+    }
     .services-boxe {
      display: flex;
      flex-direction: column;
      gap: 1.5rem;
      width: 17rem;
+     @include tab2{
+      text-align: center;
+      place-items: center;
+    }
      img{
         width: 72px;
         height: 72px;
