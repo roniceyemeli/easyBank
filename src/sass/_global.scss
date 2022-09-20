@@ -24,6 +24,7 @@ $font-family: "Public Sans", sans-serif;
 
 //---------------------------------------- buttons ------------------------------//
 .btn_request {
+    width: 10rem;
   border-radius: 2rem;
   padding: 0.7rem 1.5rem;
   color: $white;
@@ -40,6 +41,16 @@ $width: 1020px;
 
 @mixin tab {
   @media (max-width: #{$width}) {
+    @content;
+  }
+} ;
+@mixin tab0 {
+  @media (max-width: #{$width0}) {
+    @content;
+  }
+} ;
+@mixin tab2 {
+  @media (max-width: #{$width2}) {
     @content;
   }
 } ;

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 8% 1rem 8%;
   z-index: 50000;
   position: sticky;
   top: 0;
@@ -14,7 +14,6 @@
 
   .logo {
     width: 25%;
-    padding-left: 7%;
     a {
       display: flex;
       align-items: center;
@@ -54,7 +53,8 @@
   }
   .navButton {
     width: 25%;
-    @include flexcenter;
+    display: flex;
+    justify-content: flex-end;
     @include tab{
       display: none;
     } 
@@ -63,7 +63,6 @@
     display: none;
     @include tab{
       @include flexcenter;
-      // padding-right: 8rem;
     } 
   }
 }
