@@ -5,7 +5,11 @@
     background-color: $very-light-gray;
     .main_article{
         width: 100%;
-        padding-left: 8rem;
+        padding-left: clamp(4rem, 8%, 7rem);
+        @include tab2{
+            padding-left: 0;
+            text-align: center;
+          }
         h2{
             font-weight: 500;
             color: $dark-blue;
@@ -16,6 +20,11 @@
             display: flex;
             flex-wrap: wrap;
             gap: 3rem;
+            @include tab2{
+                width: 90%;
+                margin: 5rem auto;
+                justify-content: center;
+              }
             .article_box{
                 box-shadow: 0px 11px 11px 0px rgba(0,0,0,0.1);
                 background-color: $white;
