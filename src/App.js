@@ -4,7 +4,7 @@ import NavBar from './components/navBar';
 import Footer from './components/footer/';
 import { useEffect, useState } from 'react';
 import Menu from './components/menu';
-import useOnclickOutside from 'react-cool-onclickoutside';
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,9 +30,7 @@ function App() {
     }
   }
 
-  const ref = useOnclickOutside(() => {
-    setMenuOpen(false);
-  });
+
   return (
     <div className="App">
       <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
