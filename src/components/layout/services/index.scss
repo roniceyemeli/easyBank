@@ -5,22 +5,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: clamp(4rem, 8%, 7rem);
   padding-block: 4rem;
-  @include tab2{
-    padding-left: 0;
-
-  }
+ 
 
   .services-head {
     padding-block: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding-left: clamp(4rem, 8%, 7rem);
     @include tab2{
-      width: 90%;
-      margin: auto;
+      padding: 1rem;
       text-align: center;
+      margin-bottom: 2rem;
     }
     h2 {
       font-weight: 500;
@@ -37,6 +34,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 3rem;
     @include tab2{
       padding-bottom: 0;
