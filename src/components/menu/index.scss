@@ -2,6 +2,7 @@
 
 .menu {
   position: fixed;
+  transition: all 0.2s ease-in;
   .box__menu {
     display: none;
     &.active {
@@ -17,6 +18,7 @@
       background-color: $white;
     }
   }
+  
 
   &.active {
     position: fixed;
@@ -55,4 +57,7 @@
       }
     }
   }
+  @include tab{
+    display: none;
+  } 
 }
