@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 8% 1rem 8%;
+  padding: 1rem clamp(4rem, 8%, 7rem) 1rem clamp(4rem, 8%, 7rem);
   z-index: 50000;
   position: sticky;
   top: 0;
