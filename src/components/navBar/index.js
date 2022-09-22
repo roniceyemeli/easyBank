@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.scss";
-import {IoIosMenu} from 'react-icons/io'
+import {IoIosMenu, IoIosClose} from 'react-icons/io'
 
-const NavBar = () => {
+const NavBar = ({menuOpen, setMenuOpen}) => {
   return (
     <div className="navbar">
       <div className="logo">
@@ -35,8 +35,10 @@ const NavBar = () => {
           <button className="btn_request">request invite</button>
         </a>
       </div>
-      <div className="hamburger">
-        <IoIosMenu style={{fontSize:'2rem'}}/>
+      <div className="hamburger" onClick={()=> setMenuOpen(!menuOpen)}>
+        {
+          menuOpen ? <IoIosClose style={{fontSize:'2rem'}}/> : <IoIosMenu style={{fontSize:'2rem'}}/>
+        }
       </div>
     </div>
   );

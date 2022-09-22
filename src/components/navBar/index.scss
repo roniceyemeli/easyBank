@@ -64,6 +64,7 @@
   }
   .hamburger{
     display: none;
+    cursor: pointer;
     @include tab{
       @include flexcenter;
     } 
