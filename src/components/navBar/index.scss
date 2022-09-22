@@ -11,6 +11,9 @@
   left: 0;
   width: 100vw;
   background-color: $white;
+  @include tab2{
+    padding: 1rem clamp(2rem, 8%, 7rem) 1rem clamp(2rem, 8%, 7rem);
+  }
 
   .logo {
     width: 25%;
