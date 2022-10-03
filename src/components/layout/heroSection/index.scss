@@ -1,8 +1,10 @@
 @use "../../../sass/" as *;
 
 #home{
-  overflow: visible;
-  position: relative;
+  // overflow: visible;
+  overflow: hidden;
+  // position: relative;
+  width: 100%;
   .hero_main {
 
     display: flex;
