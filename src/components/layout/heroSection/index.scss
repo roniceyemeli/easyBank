@@ -30,26 +30,27 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        width: 100%;
         @include tab0{
           margin-top: 1rem;
         }
-      }
-      h1 {
-        width: 26rem;
-        letter-spacing: 1px;
-        font-weight: 700;
-        color: $dark-blue;
-        font-size: calc($font-size + 40px);
-        @include tab0{
+        h1 {
           width: 100%;
-          font-size: 2rem;
+          letter-spacing: 1px;
+          font-weight: 700;
+          color: $dark-blue;
+          font-size: calc($font-size + 40px);
+          @include tab0{
+            font-size: 2rem;
+          }
         }
-      }
-      p {
-        color: $grayish-blue;
-        width: 89%;
-        @include tab2{
-        width: 100%;
+        p {
+          color: $grayish-blue;
+          width: 58%;
+          line-height: 30px;
+          @include tab2{
+          width: 100%;
+          }
         }
       }
     }

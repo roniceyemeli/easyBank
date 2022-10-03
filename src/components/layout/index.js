@@ -8,8 +8,8 @@ const Layout = () => {
   return (
     <div id='layout'>
         <HeroSection/>
-        <Services/>
-        <ArticleSection/>
+        {/* <Services/> */}
+        {/* <ArticleSection/> */}
     </div>
   )
 }

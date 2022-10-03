@@ -9,7 +9,7 @@ const HeroSection = () => {
           <div className="left_main">
             <h1>Next generation <br /> digital banking</h1>
             <p>
-              Take your financial online. Your Easybank account will be a
+              Take your financial online. Your Easybank account  will be a
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
             </p>

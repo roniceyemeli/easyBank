@@ -4,9 +4,9 @@
   background-color: $dark-blue;
   .main_footer {
     display: flex;
-    // grid-template-columns: 60% 32%;
     flex-wrap: wrap;
-    padding-block: 2rem;
+    padding: 3rem clamp(4rem, 8%, 7rem) 3rem clamp(4rem, 8%, 7rem);
+    
     @include tab0{
       flex-direction: column;
       gap: 2rem;
@@ -15,8 +15,7 @@
     .footer_left {
       width: 60%;
       display: flex;
-      justify-content: space-around;
-      padding-left: 2rem;
+      justify-content: space-between;
       @include tab0{
         width: 100%;
         justify-content: space-around;
@@ -64,7 +63,7 @@
       }
     }
     .footer_right {
-      width: 32%;
+      width: 40%;
       @include tab0{
         width: 100%;
         justify-content: center;
